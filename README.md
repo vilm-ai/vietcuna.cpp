@@ -33,7 +33,9 @@ Hoặc tải trực tiếp từ HuggingFace
 - Non-quantized version: [Tại Đây](https://huggingface.co/vilm/vietcuna-3b-ggml-fp16)
 
 Bước 3: Khởi chạy model
+```
 ./main -m .vietcuna-3b-ggml-fp16-q4_0/ggml-model-vietcuna-3b-f16-q4_0.bin -t 8 -n 128
+```
 
 ## Bộ nhớ
 
